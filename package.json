@@ -7,7 +7,7 @@
     },
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
-        "heroku-postbuild": "node ./ops/heroku-build.js"
+        "heroku-postbuild": "heroku-build.js"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
