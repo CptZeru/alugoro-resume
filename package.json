@@ -6,6 +6,7 @@
         "node": "10.15.3"
     },
     "scripts": {
+        "serve": "browser-sync start --no-open --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\"",
         "start": "node_modules/.bin/gulp watch"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
